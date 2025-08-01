@@ -1,8 +1,8 @@
-# 🧠 Computational Intelligence Projects
+# 🧠 Computational Intelligence Projects (JavaScript)
 
-This repository contains a collection of student projects developed for the **Computational Intelligence** course taught by **Professor Kohestani**.
+This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Kohestani** at **University of Tabriz**.
 
-These projects cover a range of topics in **neural networks** and **evolutionary algorithms**, implemented from scratch using Python. Each folder represents a separate hands-on assignment demonstrating key algorithms in the field.
+All projects are implemented in **pure JavaScript**, without using any machine learning libraries. Each project demonstrates a fundamental concept in neural networks or evolutionary algorithms.
 
 ---
 
@@ -10,64 +10,65 @@ These projects cover a range of topics in **neural networks** and **evolutionary
 
 ### 🧬 Genetic Algorithm (GA) Projects
 - **EightQueen with GA**  
-  Solves the classic Eight Queens puzzle using a genetic algorithm.
+  Solves the Eight Queens puzzle using a genetic algorithm.
 
 - **TSP with GA**  
-  Solves the Traveling Salesman Problem using genetic algorithm techniques including selection, crossover, and mutation.
+  Solves the Traveling Salesman Problem (TSP) using GA with selection, crossover, and mutation operators.
 
 - **X2 with GA**  
-  Optimization of a quadratic function using GA principles.
+  Optimizes a quadratic function using a custom-built genetic algorithm.
 
 ---
 
-### 🧠 Neural Network Projects
+### 🧠 Neural Network Projects (No ML Libraries)
 
 #### Perceptron & Hebbian Learning
 - **x & o project with perceptron**  
-  Classifies X and O characters using a single-layer perceptron.
+  Binary classification using a basic perceptron written from scratch in JavaScript.
 
 - **x & o project with hebb**  
-  Uses Hebbian learning to classify character patterns.
+  Character recognition using Hebbian learning rule.
 
 - **and project with perceptron**  
-  Implements logic AND function with a perceptron model.
+  Implements the logical AND function with a single-layer perceptron.
 
 - **and project with hebb**  
-  Simple AND logic implementation using Hebb's rule.
+  AND logic using Hebbian learning algorithm.
 
-#### MLP (Multi-Layer Perceptron)
+#### Multi-Layer Perceptron (MLP)
 - **x & o project with mlp**  
-  Multi-layer perceptron for character recognition.
+  Character classification with a hand-coded multi-layer perceptron.
 
 - **x & o project with multi category**  
-  Multi-class classification task using an MLP model.
+  MLP for multi-class classification tasks.
 
 - **thyroid with mlp**  
-  Thyroid disease classification using MLP on medical data.
+  Simulates classification of thyroid disease using a JavaScript-based MLP.
 
 #### Adaline
 - **x & o project with adalyn**  
-  Adaptive Linear Neuron (Adaline) model for character classification.
+  Adaptive Linear Neuron (Adaline) model trained manually for binary pattern classification.
 
 ---
 
-## 🔧 Tools & Technologies
-- Python (pure implementations)
-- NumPy, Matplotlib
-- No deep learning libraries (educational purpose)
+## 💻 Technologies Used
+- JavaScript (Vanilla / Plain JS)
+- No machine learning libraries (e.g., TensorFlow.js, Brain.js)
+- Custom matrix operations and learning algorithms implemented manually
 
 ---
 
 ## 🎓 Course Info
 - **Course:** Computational Intelligence  
 - **Instructor:** Prof. Kohestani  
-- **University Projects | Fall/Spring [Your Semester Here]**
+- **University:** University of Tabriz  
+- **Semester:** [Write your semester here, e.g., Spring 2025]
 
 ---
 
 ## 📜 License
-MIT License — feel free to explore, modify, and learn!
+MIT License — Free to use and modify with credit.
 
 ---
 
-> *These projects are academic exercises and may not be optimized for real-world use.*
+> ⚠️ These are academic projects developed to demonstrate the inner workings of classical machine learning algorithms in a manual and transparent way.
