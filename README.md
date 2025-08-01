@@ -1,4 +1,4 @@
-# 🧠 Computational Intelligence Projects (JavaScript)
+# 🧠 Computational Intelligence Projects
 
 This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Koohestani** at **University of Tabriz**.
 
