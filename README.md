@@ -20,7 +20,7 @@ All projects were implemented in **JavaScript**, **without any external machine 
 
 ---
 
-### 🧠 Neural Network Projects (No ML Libraries)
+### 🧠 Neural Network Projects 
 
 #### Perceptron & Hebbian Learning
 - **x & o project with perceptron**  
@@ -57,6 +57,6 @@ All projects were implemented in **JavaScript**, **without any external machine 
 
 ## 🎓 Course Info
 - **Course:** Computational Intelligence  
-- **Instructor:** Prof. Koohestani  
+- **Instructor:** Prof. Koohestani(Lecturer of Artificial Intelligence)  
 - **University:** University of Tabriz  
 - **Semester:** 5th Semester, Undergraduate (B.Sc.)
