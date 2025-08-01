@@ -1,6 +1,6 @@
 # 🧠 Computational Intelligence Projects (JavaScript)
 
-This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Kohestani** at **University of Tabriz**.
+This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Koohestani** at **University of Tabriz**.
 
 All projects were implemented in **JavaScript**, **without any external machine learning libraries**, as part of coursework during the **fifth semester** of the undergraduate program.
 
@@ -34,7 +34,10 @@ All projects were implemented in **JavaScript**, **without any external machine 
 
 - **and project with hebb**  
   AND logic using Hebbian learning algorithm.
-
+  
+- **x & o project with multi category perceptron**  
+  Character recognition which is a multi category implementation using mcp.
+  
 #### Adaline
 - **x & o project with adalyn**  
   Pattern classification using the Adaline (Adaptive Linear Neuron) model.
@@ -43,9 +46,6 @@ All projects were implemented in **JavaScript**, **without any external machine 
 - **x & o project with mlp**  
   Multi-layer perceptron from scratch for binary character classification.
 
-- **x & o project with multi category**  
-  MLP for multi-class classification problems.
-
 - **thyroid with mlp**  
   Simulated thyroid disease classification using a JavaScript-based MLP.
 ---
@@ -53,13 +53,10 @@ All projects were implemented in **JavaScript**, **without any external machine 
 ## 💻 Technologies Used
 - languages: JavaScript
 - No external ML libraries, All learning algorithms and matrix operations coded manually
-
 ---
 
 ## 🎓 Course Info
 - **Course:** Computational Intelligence  
-- **Instructor:** Prof. Kohestani  
+- **Instructor:** Prof. Koohestani  
 - **University:** University of Tabriz  
 - **Semester:** 5th Semester, Undergraduate (B.Sc.)
-
----
