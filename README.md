@@ -2,7 +2,7 @@
 
 This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Kohestani** at **University of Tabriz**.
 
-All projects were implemented in **pure JavaScript**, **without any external machine learning libraries**, as part of coursework during the **fifth semester** of the undergraduate program.
+All projects were implemented in **JavaScript**, **without any external machine learning libraries**, as part of coursework during the **fifth semester** of the undergraduate program.
 
 ---
 
@@ -35,6 +35,10 @@ All projects were implemented in **pure JavaScript**, **without any external mac
 - **and project with hebb**  
   AND logic using Hebbian learning algorithm.
 
+#### Adaline
+- **x & o project with adalyn**  
+  Pattern classification using the Adaline (Adaptive Linear Neuron) model.
+  
 #### Multi-Layer Perceptron (MLP)
 - **x & o project with mlp**  
   Multi-layer perceptron from scratch for binary character classification.
@@ -44,17 +48,11 @@ All projects were implemented in **pure JavaScript**, **without any external mac
 
 - **thyroid with mlp**  
   Simulated thyroid disease classification using a JavaScript-based MLP.
-
-#### Adaline
-- **x & o project with adalyn**  
-  Pattern classification using the Adaline (Adaptive Linear Neuron) model.
-
 ---
 
 ## 💻 Technologies Used
-- JavaScript (Vanilla)
-- No external ML libraries (e.g., no TensorFlow.js, Brain.js, etc.)
-- All learning algorithms and matrix operations coded manually
+- languages: JavaScript
+- No external ML libraries, All learning algorithms and matrix operations coded manually
 
 ---
 
@@ -65,10 +63,3 @@ All projects were implemented in **pure JavaScript**, **without any external mac
 - **Semester:** 5th Semester, Undergraduate (B.Sc.)
 
 ---
-
-## 📜 License
-MIT License — Free to use and modify with credit.
-
----
-
-> ⚠️ These are academic projects demonstrating classical machine learning algorithms, implemented manually for educational purposes.
