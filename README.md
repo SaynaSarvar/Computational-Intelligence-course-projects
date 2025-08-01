@@ -16,7 +16,7 @@ All projects were implemented in **JavaScript**, **without any external machine 
   Solves the Traveling Salesman Problem (TSP) with 51 cities using GA with selection, crossover, and mutation.
 
 - **X2 with GA**  
-  Maximizing f(x) = x² using Genetic Algorithm.
+  Applies a Genetic Algorithm to find the maximum of the function f(x) = x².
 
 ---
 
