@@ -2,7 +2,7 @@
 
 This repository contains a collection of educational projects developed for the **Computational Intelligence** course taught by **Professor Koohestani** at **University of Tabriz**.
 
-All projects were implemented in **JavaScript**, **without any external machine learning libraries**, as part of coursework during the **fifth semester** of the undergraduate program.
+All projects were implemented in JavaScript, without any external machine learning libraries, as part of coursework during the fifth semester of the Bachelor's program in Computer Engineering.
 
 ---
 
