@@ -10,13 +10,13 @@ All projects were implemented in **JavaScript**, **without any external machine 
 
 ### 🧬 Genetic Algorithm (GA) Projects
 - **EightQueen with GA**  
-  Solves the Eight Queens puzzle using a genetic algorithm.
+  Solves the Eight Queens puzzle using genetic algorithm.
 
 - **TSP with GA**  
-  Solves the Traveling Salesman Problem (TSP) using GA with selection, crossover, and mutation.
+  Solves the Traveling Salesman Problem (TSP) with 51 cities using GA with selection, crossover, and mutation.
 
 - **X2 with GA**  
-  Optimizes a quadratic function using a custom-built genetic algorithm.
+  Maximizing f(x) = x² using Genetic Algorithm.
 
 ---
 
