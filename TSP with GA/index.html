@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSP with GA</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="shortcut icon" href="images/tsp-graph.png" type="image/x-icon">
+</head>
+<body>
+  <div class="bigBox">
+    <div class="resultBox">
+      <div class="maxText">max fitness: <span class="maxNum"></span>
+      </div>
+    </div>
+      <div class="container">
+        <h1 class="title">TSP with GA</h1>
+        <div class="chartBox">
+          <canvas id="cityMap"></canvas>
+          <div class="box">
+            <div class="fitness">
+              <div id="fitnessChart" style="height: 400px; width: 600px;"></div>
+            </div>
+        <button class="btn">click to see the cities order</button>
+    
+          </div>
+    
+          
+        </div>
+      </div>
+  </div>
+  <div class="modal-parent">
+    <div class="modal">
+      <p class="citiesOrder">
+        
+      </p>
+      <span class="X">&times;</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

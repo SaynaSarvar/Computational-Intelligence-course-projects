@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+body{
+  background-color: rgb(230, 203, 215);
+}
+:root{
+  --pink : rgb(235, 153, 188);
+  --purple : #660066;
+}
+.accBox{
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pink);
+
+}
+.accText{
+background-color: var(--purple);
+width: 166px;
+border-radius: 6px;
+height: 32px;
+white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3px;
+
+}
+.accNum{
+  color: var(--pink);
+
+}
+h1{
+  margin-top: -50px;
+  color: var(--pink);
+  font-size: 45px;
+  font-weight: bold;
+}
+.countainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  flex-direction: column;
+}
+#comparisonGraph{
+  margin-top: -200px;
+}
+
+.trainBtn{
+  border-radius:10px ;
+  width: 200px;
+  height: 60px;
+  border: none;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  background-color: var(--purple);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+}
+.trainBtn:hover,
+.trainBtn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.modal-parent{
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.modal{
+  background: var(--pink);
+  border: 4px solid #660066;
+  width: 40%;
+  padding: 30px;
+  border-radius: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  position: relative;
+  animation: 0.8s drop;
+}
+@keyframes drop {
+  0%{
+    top: -100px;
+  }
+  100%{
+    top: 50%;
+  }
+}
+.X{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 50px;
+  cursor: pointer;
+
+}

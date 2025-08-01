@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+body{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(191,148,233,1) 75%); 
+}
+:root{
+  --font-color:#660066;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 1520px;
+  height: 700px;
+  
+}
+.trainBox{
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container{
+  margin-top: 130px;
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--font-color);
+}
+.input1,
+.input2,
+.input3{
+  display: flex;
+  gap: 10px;
+}
+.firstInput,
+.secondInput,
+.thirdInput,
+.firstInputTest,
+.secondInputTest{
+  padding-left: 5px;
+  border: none;
+  outline: 0;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  color: var(--font-color);
+  transition: all 0.5s;
+}
+input:focus{
+  outline: var(--font-color) solid 4px;
+  
+}
+button{
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+button:hover, button:focus, button:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: var(--font-color);
+}
+#linearPlot{
+  border-radius: 20px;
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  display: none;
+}
+.testBox{
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  display: none;
+  
+}
+.testBtn{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.modal-parent{
+  color: #660066;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.modal{
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(191,148,233,1) 75%); 
+  border: 4px solid #fff;
+  width: 40%;
+  padding: 30px;
+  border-radius: 220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  position: relative;
+  animation: 0.8s drop;
+}
+@keyframes drop {
+  0%{
+    top: -100px;
+  }
+  100%{
+    top: 50%;
+  }
+}
+.X{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 50px;
+  cursor: pointer;
+
+}
